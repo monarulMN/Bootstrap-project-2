@@ -11,80 +11,79 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-light">
+<body class="container-fluid bg-light">
     
-    <nav class="navbar navbar-expand-md bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary py-0 fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand text-white fw-bolder text-uppercase fs-4" href="#">BD Shop</a>
+          <a class="navbar-brand text-white fw-bolder text-uppercase fs-4 shadow rounded" href="#">BD Shop</a>
           <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "><i class="bi bi-border-width "></i></span>
           </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 me-3 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white " aria-current="page" href="#">Home</a>
+              <li class="nav-item ">
+                <a class="nav-link active text-white rounded shadow " aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Products</a>
+                <a class="nav-link text-white rounded shadow" href="#">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">About Us</a>
+                <a class="nav-link text-white rounded shadow" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact Us</a>
+                <a class="nav-link text-white rounded shadow" href="#">Contact Us</a>
               </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success text-white" type="submit">Search</button>
+              <button class="btn btn-outline-success text-white shadow" type="submit">Search</button>
             </form>
           </div>
         </div>
-      </nav>
+    </nav>
 
 
-      <header>
+      <header class="container-fluid mt-5">
         <div id="carouselExampleInterval" class="carousel slide d-block d-lg-flex" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-              <img src="images/slider-1.jpg"  class=" d-lg-flex img-fluid  w-100" height="100vh" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="images/slider-2.jpg"  class=" d-lg-flex img-fluid  w-100" height="100vh" alt="...">
+              <img src="images/slider-1.jpg"  class=" d-lg-flex img-fluid w-100" alt="..." style="height: 480px;">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img src="images/slider-3.jpg"  class=" d-lg-flex img-fluid  w-100" height="100vh" alt="...">
+              <img src="images/slider-2.jpg"  class=" d-lg-flex img-fluid w-100" alt="..." style="height: 480px;">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img src="images/slider-4.jpg"  class=" d-lg-flex img-fluid  w-100" height="100vh" alt="...">
+              <img src="images/slider-3.jpg"  class=" d-lg-flex img-fluid w-100" alt="..." style="height: 480px;">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/slider-4.jpg"  class=" d-lg-flex img-fluid w-100" alt="..." style="height: 480px;">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden shadow">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="visually-hidden shadow">Next</span>
           </button>
         </div>
       </header>
 
-      <section class="container mt-5">
-        <div class="row d-flex">
-          <div class="col-lg-5 d-block d-lg-flex ">
+      <section class="container-fluid mt-5">
+        <div class="col-md-12 d-sm-inline-block d-lg-inline-flex gap-2 ">
+          <div class="col-lg-5 d-block d-lg-flex my-2">
             <img src="images/style.jpg"  class="img-fluid " alt="">
           </div>
-          <div class="col-lg-7">
-            <div class="row mb-3">
-
+          <div class="col-lg-7 ">
+            <div class="col-md-12 d-sm-inline-flex gap-2 my-2">
               <div class="col-md-4 ">
-                <div class="card border-0 me-2 p-2 ">
-                  <img src="images/p1.jpg" height="130vh" class="card-img-top img-fluid " alt="">
+                <div class="card border-0 ">
+                  <img src="images/p1.jpg" class="card-img-top img-fluid " alt="">
                   <div class="card-body">
                     <p class="card-text text-info">product keybord</p>
                     <div class="d-flex justify-content-between">
-                      <span class="text-primary">$ 1500.00</span>
+                      <span class="text-primary">$150.00</span>
                       <span class="text-warning">
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -99,12 +98,12 @@
               </div>
 
               <div class="col-md-4 ">
-                <div class="card border-0 me-2 p-2 ">
-                  <img src="images/p2.jpg" height="70vh" class="card-img-top img-fluid  " alt="">
+                <div class="card border-0 ">
+                  <img src="images/p1.jpg" class="card-img-top img-fluid  " alt="">
                   <div class="card-body">
                     <p class="card-text text-info">Man's watch</p>
                     <div class="d-flex justify-content-between">
-                      <span class="text-primary">$ 150.00</span>
+                      <span class="text-primary">$150.00</span>
                       <span class="text-warning">
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -119,12 +118,12 @@
               </div>
 
               <div class="col-md-4 ">
-                <div class="card border-0 me-2 p-2 ">
-                  <img src="images/p3.jpg" height="130vh" class="card-img-top img-fluid " alt="">
+                <div class="card border-0 ">
+                  <img src="images/p1.jpg" class="card-img-top img-fluid " alt="">
                   <div class="card-body">
                     <p class="card-text text-info">product Ram</p>
                     <div class="d-flex justify-content-between">
-                      <span class="text-primary">$ 2500.00</span>
+                      <span class="text-primary">$150.00</span>
                       <span class="text-warning">
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -137,18 +136,15 @@
                   </div>
                 </div>
               </div>
-              
-
-
-              <div class="row mb-3">
-
+            </div>
+            <div class="col-md-12 d-sm-inline-flex gap-2 my-2">
                 <div class="col-md-4 ">
-                  <div class="card border-0 me-2 p-2 ">
-                    <img src="images/p4.jpg" height="130vh" class="card-img-top img-fluid " alt="">
+                  <div class="card border-0 ">
+                    <img src="images/p1.jpg" class="card-img-top img-fluid " alt="">
                     <div class="card-body">
                       <p class="card-text text-info">product pen</p>
                       <div class="d-flex justify-content-between">
-                        <span class="text-primary">$ 80.00</span>
+                        <span class="text-primary">$150.00</span>
                         <span class="text-warning">
                           <i class="bi bi-star-fill"></i>
                           <i class="bi bi-star-fill"></i>
@@ -163,12 +159,12 @@
                 </div>
   
                 <div class="col-md-4 ">
-                  <div class="card border-0 me-2 p-2 ">
-                    <img src="images/p5.jpg" height="130vh" class="card-img-top img-fluid " alt="">
+                  <div class="card border-0  ">
+                    <img src="images/p1.jpg" class="card-img-top img-fluid " alt="">
                     <div class="card-body">
                       <p class="card-text text-info">Colthes</p>
                       <div class="d-flex justify-content-between">
-                        <span class="text-primary">$ 1000.00</span>
+                        <span class="text-primary">$150.00</span>
                         <span class="text-warning">
                           <i class="bi bi-star-fill"></i>
                           <i class="bi bi-star-fill"></i>
@@ -183,12 +179,12 @@
                 </div>
   
                 <div class="col-md-4 ">
-                  <div class="card border-0 me-2 p-2 ">
-                    <img src="images/p6.jpg" height="130vh" class="card-img-top img-fluid " alt="">
+                  <div class="card border-0 ">
+                    <img src="images/p1.jpg" class="card-img-top img-fluid " alt="">
                     <div class="card-body">
                       <p class="card-text text-info">product camara</p>
                       <div class="d-flex justify-content-between">
-                        <span class="text-primary">$ 2000.00</span>
+                        <span class="text-primary">$150.00</span>
                         <span class="text-warning">
                           <i class="bi bi-star-fill"></i>
                           <i class="bi bi-star-fill"></i>
@@ -201,10 +197,108 @@
                     </div>
                   </div>
                 </div>
-  
-
             </div>
+
           </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container-fluid">
+        <div class="text-center my-5">
+          <p class="h4 fw-bolder">Trending Products</p>
+        </div>
+        <div class="row">
+
+          <div class="col-md-3 shadow py-3 ">
+            <div class="d-flex justify-content-between">
+              <span class="bg-danger px-3 rounded text-white">Sale</span>
+              <span class="text-danger"><i class="bi bi-code"></i>Compare</span>
+            </div>
+            <img src="images/p1.jpg" class="img-fluid" alt="">
+            <span class="text-secondary">Keybord</span>
+            <p class="h6">Wireless Keybord</p>
+            <div class="d-flex justify-content-between">
+              <span>$150.00</span>
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </span>
+            </div>
+            <button class="btn btn-primary w-100 my-2"><i class="bi bi-cart"></i> Add to Cart</button>
+            <a href="#" class="btn btn-outline-secondary w-100">Quick To View</a>
+          </div>
+
+          <div class="col-md-3 shadow py-3 ">
+            <div class="d-flex justify-content-between">
+              <span class="bg-danger px-3 rounded text-white">Sale</span>
+              <span class="text-danger"><i class="bi bi-code"></i>Compare</span>
+            </div>
+            <img src="images/p1.jpg" class="img-fluid" alt="">
+            <span class="text-secondary">Keybord</span>
+            <p class="h6">Wireless Keybord</p>
+            <div class="d-flex justify-content-between">
+              <span>$150.00</span>
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </span>
+            </div>
+            <button class="btn btn-primary w-100 my-2"><i class="bi bi-cart"></i> Add to Cart</button>
+            <a href="#" class="btn btn-outline-secondary w-100">Quick To View</a>
+          </div>
+
+          <div class="col-md-3 shadow py-3 ">
+            <div class="d-flex justify-content-between">
+              <span class="bg-danger px-3 rounded text-white">Sale</span>
+              <span class="text-danger"><i class="bi bi-code"></i>Compare</span>
+            </div>
+            <img src="images/p1.jpg" class="img-fluid" alt="">
+            <span class="text-secondary">Keybord</span>
+            <p class="h6">Wireless Keybord</p>
+            <div class="d-flex justify-content-between">
+              <span>$150.00</span>
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </span>
+            </div>
+            <button class="btn btn-primary w-100 my-2"><i class="bi bi-cart"></i> Add to Cart</button>
+            <a href="#" class="btn btn-outline-secondary w-100">Quick To View</a>
+          </div>
+
+          <div class="col-md-3 shadow py-3 ">
+            <div class="d-flex justify-content-between">
+              <span class="bg-danger px-3 rounded text-white">Sale</span>
+              <span class="text-danger"><i class="bi bi-code"></i>Compare</span>
+            </div>
+            <img src="images/p1.jpg" class="img-fluid" alt="">
+            <span class="text-secondary">Keybord</span>
+            <p class="h6">Wireless Keybord</p>
+            <div class="d-flex justify-content-between">
+              <span>$150.00</span>
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </span>
+            </div>
+            <button class="btn btn-primary w-100 my-2"><i class="bi bi-cart"></i> Add to Cart</button>
+            <a href="#" class="btn btn-outline-secondary w-100">Quick To View</a>
+          </div>
+
         </div>
       </section>
 
